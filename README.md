@@ -106,11 +106,15 @@ Constructor: The constructor function is called when the contract is deployed. I
 
 ## Functions:
 
-mint: Allows the contract owner to mint tokens and transfer them to a specified address.
-richardTokens: Allows anyone to transfer tokens from the contract owner's address to another address.
-redeemTokens: Allows users to redeem an item from the shop by burning the required amount of tokens.
-degenTokenBalance: Allows users to check their token balance.
-burnTokens: Allows users to burn a specified amount of their tokens.
+* mint: Allows the contract owner to mint tokens and transfer them to a specified address.
+  
+* richardTokens: Allows anyone to transfer tokens from the contract owner's address to another address.
+  
+* redeemTokens: Allows users to redeem an item from the shop by burning the required amount of tokens.
+  
+* degenTokenBalance: Allows users to check their token balance.
+  
+* burnTokens: Allows users to burn a specified amount of their tokens.
 
 ## Authors
 
