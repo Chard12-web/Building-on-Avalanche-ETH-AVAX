@@ -68,6 +68,18 @@ contract DegenToken is ERC20, Ownable {
     require(balanceOf(msg.sender) >= itemPrice, "You have insufficient balance, try again");
 
     _burn(msg.sender, itemPrice);
+
+      if (_item == SellItem.DEGEN_REFRIGERATOR) {
+        // Code to deliver DEGEN_REFRIGERATOR to the player
+    } else if (_item == SellItem.DEGEN_AIRCON) {
+        // Code to deliver DEGEN_AIRCON to the player
+    } else if (_item == SellItem.DEGEN_OVEN) {
+        // Code to deliver DEGEN_OVEN to the player
+    } else if (_item == SellItem.DEGEN_MICROWAVE) {
+        // Code to deliver DEGEN_MICROWAVE to the player
+    } else if (_item == SellItem.DEGEN_RICECOOKER) {
+        // Code to deliver DEGEN_RICECOOKER to the player
+    }
   }
 
   function degenTokenBalance(address _buyer) public view returns (uint) {
